@@ -1,0 +1,35 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.paticka {
+	text-align: center;
+	font-size: 14px;
+	color: silver;
+}
+
+.paticka a {
+	color: silver;
+}
+
+/* -------------------------------------------------- */
+
+/*
+Responzivní breakpointy:
+Mobil:		0 - 479px
+Tablet:		480px - 859px
+Počítač:	860px a víc
+
+Chrome a některé další prohlížeče nejdou zmenšit pod určitou šířku, takže je možné, že ti nepůjde zmenšit tolik, aby se aktivovala mobilní verze. Pokud se ti to stane, změň si v kódu hranici mezi mobilem a tabletem třeba na 600px, nebo aktivuj v prohlížeči vývojářské nástroje s mobilním náhledem, kde může nastavovat jakoukoliv velikost (i malou).
+
+Obrázky pro jednotlivé recepty jsou ve složce images.
+Nastav je receptům jako obrázky na pozadí (tj. nepřidávej je jako <img> do HTML)
+
+Na rozložení prvků NEPOUŽÍVEJ absolutní pozicování, ale pouze flexboxy.
+Flexboxy mohou být vnořené do sebe, klidně několikrát.
+*/
