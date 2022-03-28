@@ -83,7 +83,7 @@ h2 {
   background-image: url(images/burger.jpg);
 }
 
-.kontejner {
+.kontejner2 {
   display: flex;
   justify-content: space-between;
 }
@@ -116,6 +116,20 @@ h2 {
   .maleRecepty {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  .kontejner {
+    display: flex;
+  }
+
+  .hlavniRecept,
+  .malyRecept1,
+  .malyRecept2,
+  .malyRecept3,
+  .malyRecept4 {
+    flex-grow: 1;
   }
 }
 
