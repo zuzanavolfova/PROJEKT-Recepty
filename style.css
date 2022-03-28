@@ -30,10 +30,25 @@ body {
 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
+  font-size: 28px;
 }
 h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
+  font-size: 18px;
+}
+
+.hlavniRecept,
+.malyRecept {
+  padding: 10px;
+}
+
+.hlavniRecept {
+  min-height: 200px;
+}
+
+.malyrecept {
+  min-height: 90px;
 }
 
 /*
