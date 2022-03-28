@@ -13,6 +13,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  color: white;
 }
 
 .paticka {
@@ -31,11 +32,13 @@ h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 28px;
+  margin: 0;
 }
 h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
+  margin: 0;
 }
 
 .hlavniRecept,
@@ -47,11 +50,11 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   background-size: cover;
+  display: flex;
 }
 
 .hlavniRecept {
   min-height: 200px;
-  display: flex;
   background-image: url(images/salat.jpg);
 }
 
@@ -78,6 +81,32 @@ h2 {
 .kontejner {
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 479px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .hlavniRecept {
+    min-height: 250px;
+  }
+  .malyRecept1,
+  .malyRecept2,
+  .malyRecept3,
+  .malyRecept4 {
+    min-height: 150px;
+  }
+
+  .hlavniRecept,
+  .malyRecept1,
+  .malyRecept2,
+  .malyRecept3,
+  .malyRecept4 {
+    padding: 20px;
+  }
 }
 
 /*
