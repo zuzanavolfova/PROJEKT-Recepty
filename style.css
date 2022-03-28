@@ -39,19 +39,40 @@ h2 {
 }
 
 .hlavniRecept,
-.malyRecept {
+.malyRecept1,
+.malyRecept2,
+.malyRecept3,
+.malyRecept4 {
   padding: 10px;
   flex-direction: column;
   justify-content: space-between;
+  background-size: cover;
 }
 
 .hlavniRecept {
   min-height: 200px;
   display: flex;
+  background-image: url(images/salat.jpg);
 }
 
-.malyrecept {
+.malyRecept1,
+.malyRecept2,
+.malyRecept3,
+.malyRecept4 {
   min-height: 90px;
+}
+
+.malyRecept1 {
+  background-image: url(images/chlebicek.jpg);
+}
+.malyRecept2 {
+  background-image: url(images/tacos.jpg);
+}
+.malyRecept3 {
+  background-image: url(images/cizrna.jpg);
+}
+.malyRecept4 {
+  background-image: url(images/burger.jpg);
 }
 
 .kontejner {
