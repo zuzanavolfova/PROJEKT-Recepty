@@ -41,14 +41,22 @@ h2 {
 .hlavniRecept,
 .malyRecept {
   padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hlavniRecept {
   min-height: 200px;
+  display: flex;
 }
 
 .malyrecept {
   min-height: 90px;
+}
+
+.kontejner {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*
